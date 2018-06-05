@@ -5,6 +5,7 @@ import Root from './components/root';
 
 //TESTING START
   import { logout, signup, login } from './actions/session_actions';
+  import { fetchBenches } from './util/bench_api_util';
 //TESTING END
 
 
@@ -32,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.login = login;
   window.logout = logout;
   window.signup = signup;
+  window.fetchBenches = fetchBenches;
   // TESTING END
 
 
